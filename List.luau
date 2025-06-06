@@ -1,6 +1,6 @@
 
 local PlayersBanned = {
-
+ ["UOO"] = true
 }
 
 if PlayersBanned[LocalPlayer.Name] or PlayersBanned[LocalPlayer.UserId] then
